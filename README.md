@@ -15,7 +15,7 @@
 2. Склонируйте этот репозиторий:
 
    ```bash
-   git clone [<ссылка_на_репозиторий>](https://github.com/Kaadosh/product-list.git)
+   git clone https://github.com/Kaadosh/product-list.git
   1. Перейдите в директорию проекта:
       cd product-list
 
