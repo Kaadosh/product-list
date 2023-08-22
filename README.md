@@ -14,24 +14,30 @@
 1. Убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [npm](https://www.npmjs.com/).
 2. Склонируйте этот репозиторий:
 
-   ```bash
+    ```bash
    git clone https://github.com/Kaadosh/product-list.git
-  1. Перейдите в директорию проекта:  
-      cd product-list
+  3. Перейдите в директорию проекта:
+        ```bash 
+       cd product-list
 
-  2.Установите зависимости:  
-    npm install
+  4.Установите зависимости:
+   ```bash
+  npm install     
 
-  3. Запустите локальный сервер:  
-     npm run serve
+ 
+  5. Запустите локальный сервер:
+  ```bash  
+  npm run serve
+ 
 
+  
 ## Через Docker
 
 1. Убедитесь, что Docker и Docker Compose установлены.
 
 2. Запустите приложение с помощью Docker Compose:
 
-```bash
+ ```bash
     docker-compose up
 
 Откройте браузер и перейдите по адресу http://localhost:8080/, чтобы протестировать приложение.
